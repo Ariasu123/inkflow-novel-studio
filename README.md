@@ -4,6 +4,16 @@
 
 你可以输入一句灵感，也可以把设定拆成 **世界观 / 人物 / 冲突** 三栏，再让固定设定的小说创作 Agent 生成正文，并在结果区继续做 **续写、下一章扩写、段落重写、第一/第三人称转换**。
 
+## 页面效果图
+
+### 首页与输入区
+
+![InkFlow 首页与输入区](./assets/inkflow-home.png)
+
+### 结果区与写作工作流
+
+![InkFlow 结果区与写作工作流](./assets/inkflow-workflow.png)
+
 ## 核心功能
 
 - 沉浸式中文创作界面，适合快速进入写作状态
@@ -156,7 +166,10 @@ D:/crewai-novel-studio/
 ├── .env.example
 ├── .gitignore
 ├── LICENSE
-└── README.md
+├── README.md
+└── assets/
+    ├── inkflow-home.png
+    └── inkflow-workflow.png
 ```
 
 说明：
@@ -164,14 +177,6 @@ D:/crewai-novel-studio/
 - `.env.example` 用于提供配置模板，适合保留在仓库中
 - `.env` 为本地私密配置，不应上传到 GitHub
 - `__pycache__/` 为运行产物，不应纳入仓库
-
-## GitHub 上传建议
-
-如果你准备把这个项目上传到 GitHub：
-
-- 保留：`app.py`、`README.md`、`requirements.txt`、`.env.example`、`.gitignore`
-- 不要上传：`.env`、`__pycache__/`、虚拟环境目录
-- 提交前先检查 `.env` 是否未被纳入版本控制
 
 ## 开源许可证
 
